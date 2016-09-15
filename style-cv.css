@@ -1,0 +1,186 @@
+			/*Header*/
+body {
+	/*background-image: linear-gradient(to right, blue,yellow);
+	background-repeat: no-repeat;*/
+}
+main {
+	border-top: 2px solid #D5D5DD; 
+	border-left: 2px solid #D5D5DD;
+	border-right: 2px solid #D5D5DD;
+	font-size: 16px;
+}
+.cv-page {
+	background: white;
+
+}
+.cv-page a {
+	color: black;
+}
+.top-info span {
+	font-size: 16px;
+}
+.header_wrapper {	
+	width: 80%;
+	
+	position: fixed;
+	border-bottom: none;
+z-index: 1000;
+}
+.top-info-button a {
+color: #8FB0B7;
+text-decoration: none;
+}
+										/*End of Header*/
+										/*Main*/
+main {
+	padding-top: 150px;
+}
+
+.cv-block  {
+	margin: 0 20px;
+	border-bottom: 2px solid #D5D5DD;	
+}
+.cv-block-add  {
+	margin: 0 20px;
+
+}
+.cv-block-add b {
+	padding-bottom: 5px;
+}
+.top-info {
+	padding: 5px 20px 20px 130px;
+	
+}
+.top-info span {
+	margin: 0px;
+	padding: 0px 20px;
+	display: inline-block;
+	width: 50%;
+}
+.top-info span:first-child {
+	padding-top: 20px;
+}
+.top-info a {
+	color: blue;
+	text-decoration: underline;
+}
+.top-info-button {
+	float: right;
+	width: 180px;
+	height: 90px;
+	margin-right: 130px;
+	text-align: right;
+}
+#button-cv {
+  position: relative;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: -1px -1px #000;
+  user-select: none;
+  padding: .8em 2em;
+  outline: none;
+  background-color: #000;
+  background-image: linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%), radial-gradient(190% 100% at 50% 0%, rgba(255,255,255,.7) 0%, rgba(255,255,255,.5) 50%, rgba(0,0,0,0) 50%);
+  background-repeat: no-repeat;
+  background-size: 200% 100%, auto;
+  background-position: 200% 0, 0 0;
+  box-shadow: rgba(0,0,0,.3) 0 2px 5px;
+}
+#button-cv:active {
+	 top: 1px;
+  box-shadow: none;
+}
+#button-cv:hover {
+	transition: .5s linear;
+  background-position: -200% 0, 0 0;
+}
+input {
+	border-radius: 15px;
+	outline: none;
+	padding-left: 10px;
+	box-shadow: 25px;
+	width: 180px;
+}
+label {
+	margin-top: 20px;
+}
+.summary{
+
+	padding: 0px 0 10px 150px;
+	position: relative;
+	margin-right: 390px;
+	border-bottom: 2px solid #D5D5DD;
+	text-align: justify;
+	
+	
+}										
+.job-photo {
+	width: 23%;
+    margin: 20px 150px 0 0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+    right: -390px;
+}
+.work-experience {
+	padding: 0px 150px 20px 150px;
+}				
+.job-title {
+	float:left;
+	padding: 0px;
+	margin-bottom:0px;
+}	
+.job-title-2 {
+	margin-top: 40px;	
+}
+.period-of-work {
+	float: right;
+	padding: 0px;
+	margin-right: 220px;
+	margin-top: 0px;
+}	
+.period-of-work-2 {
+	margin-top: 40px;
+}			
+.company {
+	clear: both;
+	
+}	
+table {
+	margin-top: 0px;
+}
+.for_table {
+	margin-bottom: 10px;
+}
+
+.professional,
+.education,
+.language,
+.soft,
+.interests,
+.references {
+	width: auto;
+	height: auto;
+	margin: 0px 20px;
+	padding: 0px 150px;
+}
+.table-underline {
+	border-bottom: 1px solid #D5D5DD;
+}
+.references  {
+	margin-top: 40px;
+	margin-bottom: 0px;
+	padding-bottom: 40px;
+	/*border: 1px solid black;*/
+}									
+										
+										
+										
+										/*End of Main*/
+										/*Footer*/
+footer li:hover {
+	background: white;
+}
+					/*End of Footer*/

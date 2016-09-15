@@ -1,0 +1,54 @@
+
+main {
+	border-left: 2px solid #D5D5DD;
+	border-right: 2px solid #D5D5DD;
+	font-size: 16px;
+}
+
+.biography-page {
+	background: white;
+}	
+.biography-page  a {
+	color: black;
+}
+.main-menu li li:hover a {
+	background: white;
+	color: black;
+}
+.bio-text {
+	/*border: 1px solid black;*/
+	margin: auto auto;
+	width: 70%;
+	/*min-height: 500px;*/
+	padding-top: 20px;
+	padding-bottom: 20px;
+	/*position: relative;*/
+}
+.family-1 {
+	/*position: absolute;*/
+	top: 450px;
+	left: 200px;
+	width: 27%;
+}
+
+.family-2 {
+	/*position: absolute;*/
+	width: 22%;
+}
+.family-3 {
+	/*position: absolute;*/
+	width: 27%;
+}
+.family-4 {
+	/*position: absolute;*/
+	width: 22%;
+}
+.album {
+	width: 70%;
+	margin: auto auto;
+	padding-bottom: 20px;
+	/*border: 1px solid black;*/
+}
+.album img {
+	display: inline-block;
+}

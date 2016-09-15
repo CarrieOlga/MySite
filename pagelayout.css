@@ -1,0 +1,260 @@
+body {
+	height: 100%;
+	margin:0;
+	padding: 0;
+	font-family: 'Philosopher', cursive;
+	color: grey;
+	/*background-image: linear-gradient(blue,yellow);
+	background-repeat: no-repeat;*/
+	background-color: #8FB0B7;
+}
+header {
+	position: relative;
+	width: 80%;
+}
+
+
+.header_wrapper_normal {	
+	width: 100%;
+	height: 100%;
+	
+}
+
+.page_wrapper {
+	width: 80%;
+	margin: 40px auto;
+	font-size: 0;
+	background: #F4F8FF;
+	height: 100%;
+}
+
+.leaf {
+    width: 60px;
+    height: 60px;
+    margin: 0;
+    float: left;
+    background-color: #dfdfdf;
+}
+@keyframes move-flower {
+	from { transform: scale(0);}
+	to { transform: scale(1);}
+}
+.flower {
+	position: absolute;
+    width: 120px;
+    margin: 0 auto;
+    padding-top: 32px;
+	top: -25px;
+	left: 10px;
+	animation-name: move-flower;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+
+
+.leaf-top-left {
+    background-image: linear-gradient(135deg, white, grey);
+}
+.leaf-top-right {
+    background-image: linear-gradient(225deg, white, grey);
+    /*градиент от #00ff00 к #000000*/
+}
+.leaf-bottom-right {
+    background-image: linear-gradient(315deg, white, grey);
+    /*градиент от #ffff00 к #000000*/
+}
+.leaf-bottom-left {
+    background-image: linear-gradient(45deg, white, grey);
+    /*градиент от #ff00ff к #000000*/
+}
+.leaf-top-left, .leaf-bottom-right {
+    border-radius: 0 50%;
+}
+.leaf-top-right, .leaf-bottom-left {
+    border-radius: 50% 0;
+}
+
+
+									/*MENU*/
+header {
+	width: 100%;
+	margin: auto;
+	background: #F4F8FF;
+	border-top: 2px solid #D5D5DD; 
+	border-left: 2px solid #D5D5DD;
+	border-right: 2px solid #D5D5DD;
+	box-sizing: border-box;
+	
+}
+
+
+.name {
+	/*color: blue;*/
+	text-align: center;
+	margin: 0px 20px 20px 20px;
+	padding: 20px 20px 10px 20px;
+	font-size: 40px;
+	/*text-shadow: 1px 1px 2px black, 0 0 1em red;*/	
+}
+.main-menu {
+	list-style: none;
+	text-align: center;
+	border-bottom: 2px solid #D5D5DD;	
+	margin: 20px 20px 0 20px;
+	padding: 0px 20px 20px 20px;
+	font-size: 25px;
+}
+.main-menu > li {
+	display: inline-block;
+	margin-right: 0px;	
+	position: relative;
+	border: 1px solid #D5D5DD;
+	width: 200px;
+	border-radius: 15px;
+	box-shadow: 0 0 10px grey;
+}
+.main-menu a {
+display: block;
+}
+.main-menu > li:hover {
+	background: white;
+}
+.main-menu  > li:hover  > 	a {
+	color: black;
+	transition: .5s linear;
+	background-position: -200% 0, 0 0;
+}
+.main-menu  .second-list {
+	position: absolute;
+	text-decoration: none;
+	list-style: none;
+	top: 29px;
+	left: 0px;
+	text-align: left;
+	display: none;
+	color: grey;
+}
+.main-menu  .second-list > li {
+	border: 1px solid #D5D5DD;
+	width: 200px;
+	border-radius: 15px;
+	box-shadow: 0 0 10px grey;
+	background: #F4F8FF;
+	/*padding-left: 40px;*/
+	color: grey;
+	margin-top: 4px;	
+}
+.main-menu  .second-list a {
+	background: #F4F8FF;
+	color: grey;
+padding-left: 40px;
+border-radius: 15px;
+		
+}
+.main-menu li:hover .second-list {
+	display: block;
+}
+
+.main-menu li ul a:hover {
+	color: black;
+	background: white;
+	text-decoration: none;
+}
+.main-menu li ul li:hover {
+
+	background: white;
+	text-decoration: none;
+}
+									/*END MENU*/
+a {	
+	text-decoration: none;
+	color: grey;
+}
+p {
+	text-indent: 20px;
+	margin-bottom: 5px;
+}
+
+b {
+	font-weight: bold;
+}
+i {
+	font-style: italic;
+}
+h1 {
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+h2 {
+	font-weight: bold;
+	margin: 10px 0;
+}
+h3 {
+	margin: 10px 0;
+}
+main li {
+	list-style-type: circle; 
+	margin-left: 40px;
+	text-align: justify;
+}
+ul {
+	margin-bottom: 20px;
+}
+table {
+	width: 100%;
+}
+
+				/*FOOTER*/					
+
+footer {
+	clear: both;
+	height: 80px;
+	border-bottom: 2px solid #D5D5DD; 
+	border-left: 2px solid #D5D5DD;
+	border-right: 2px solid #D5D5DD;
+	font-size: 16px;
+}
+
+footer > div {
+	margin: 0px 20px;	
+	border-top: 2px solid #D5D5DD;
+}
+ul {
+	padding: 0px;
+	margin-bottom: 0px;
+}
+span {
+	font-size: 20px;
+}
+.social {
+	display: inline-block;
+	float: right;
+	width: 40px;
+	height: 40px;	
+	margin-right: 20px;	
+}
+.social-text {
+	display: inline-block;
+	float: right;
+	color: grey;
+	margin-right: 20px;
+	margin-top: 20px;	
+}
+.text {
+	padding: 10px 0px 0px 0px;
+}
+footer li:hover {
+	background: white;
+	transform: scale(1.2);
+	transition-duration: 1s;
+}
+.rights {
+	float: left;
+	width: 50%;
+	padding-top: 30px;
+}
+.rights span {
+transform: scaleX(-1);
+}
+									/*FOOTER*/	

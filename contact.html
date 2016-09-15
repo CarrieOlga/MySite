@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>Contact</title>
+		<link href="reset.css" rel="stylesheet"> 
+		<link href="pagelayout.css" rel="stylesheet"> 
+		<link href="style-contact.css" rel="stylesheet"> 
+		<link href='https://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet' type='text/css'>
+		<script src="scripts.js"></script>
+		<script src="jquery-3.1.0.min.js"></script>
+		<script>
+   
+		</script>
+    </head>
+    <body onload="parseDocument()">
+	<div class="page_wrapper">
+		<header class="header_wrapper_normal">
+			<div class="name">OLGA MORGUNOVA</div>
+			<ul class="main-menu" id="test">
+				<li class="main-page"><a href=".\index.html">Main Page</a></li>
+				<li><a href=".\biography.html">Biography <span>&#9660;</span></a>
+					<ul class="second-list">
+						<li><a href="interests.html">Interests</a></li>	
+						<li><a href="web.html">Web</a></li>						
+					</ul>
+				</li>
+				<li><a href=".\cv.html">Resume</a></li>
+				<li class="contact-page"><a href=".\contact.html">Contact</a></li>
+			</ul>
+			<div class="flower">
+				<div class="leaf leaf-top-left"></div>
+				<div class="leaf leaf-top-right"></div>
+				<div class="leaf leaf-bottom-left"></div>
+				<div class="leaf leaf-bottom-right"></div>
+			</div>
+		</header>
+		<main class="clearfix">
+		<div class="contact-info">
+			<h3>In case of any questions you can reach me any day from 10 AM till 8 PM.</h3>
+			<div class="phone-email">
+				Phone number: +48 794 924 297<br>
+				Email: <a>olga_morgunova@ukr.net</a><br>
+			</div>
+			<h3>If you'd like to ask me a question, please use a form below:</h3>
+			<form action="gogogo.php" method="post" id="toSend">
+			<div class="textbox">
+				<label for="name">Please provide your name:</label><br>
+					<input type="text" name="name" id="name" class="for-asterisk" tabindex="1" placeholder="Your name" autofocus required>
+					</input><br>
+				<div class="your-email-show">
+				<label  class="your-email" for="your-email">Please enter your email address:</label><br>		
+					<input type="email" class="for-asterisk" name="your-email" id="your-email" tabindex="4" placeholder="Your email"></input><br>
+				</div>
+				<label for="text">Please type in your message:</label><br>
+					<textarea name="message" id="text" name="text" rows="5" class="for-asterisk" tabindex="2" placeholder="Your message" required></textarea>
+					<br>
+			</div>	
+ 				<!--	
+				<input type="radio" id="phone" name="preference" value="tel"></input>							
+					<label class="phone" for="phone" onclick="check2()">Please click if you prefer me to call you back.</label>
+						<br>
+				<input type="radio" id="email" name="preference" value="email"></input>
+					<label class="email" for="email" onclick="check()">Please click if you prefer to receive my response to your email.</label>	
+						<br>-->
+				<label for="button"></label>	
+					<input type="submit" id="button" value="Send your message"></input>
+			</form>
+		</div>
+		<img src="./for-contact-page.jpg" class="contact-picture"/>
+		
+		</main>
+	<footer>
+		<div>
+			<p class="rights">CARRIE Production. All rights reserved <sup>&copy;</sup></p>
+			<ul class="social-text">			
+				<li class="social in"><a href="https://www.linkedin.com/in/olgamorgunova?trk=nav_responsive_tab_profile"><img src="./in.png" width="40" height="40" alt="linkedin"></a></li>
+				<li class="social fb"><a href="https://www.facebook.com/olga.morgunova.90"><img src="./fb.png" width="40" height="40" alt="facebook"></a></li>
+			</ul>
+			<p class="social-text text">Follow me in social network:</p>
+		<div class="clearfix"></div>	
+		</div>
+	</footer>
+	</div>
+	<script>
+
+	</script>
+	
+    </body>
+</html>

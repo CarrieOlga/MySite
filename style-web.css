@@ -1,0 +1,31 @@
+.biography-page li{
+	background: white;
+
+}
+
+main {
+	font-size: 16px;
+	border-left: 2px solid #D5D5DD;
+	border-right: 2px solid #D5D5DD;
+}
+main img {
+margin: 10px 0px;
+width: 46%;
+padding: 0 20px;
+/*border-left: 1px solid #D5D5DD;
+	border-right: 1px solid #D5D5DD;*/
+}
+}
+.certificate1 {
+float: left;
+}
+.certificate2 {
+float: right;
+}
+.certificate4 {
+float: right;
+}
+p {
+margin-top: 10px;
+
+}
